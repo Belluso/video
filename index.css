@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3A4D39;
+    
+}
+
+
+
+
+.video-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+   
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+    
+
+
+.content-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+    color: #4CCD99;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.image-container img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.lyrics-section {
+    flex: 1;
+    padding: 20px;
+    border-left: 2px solid #080404;
+}
+
+.lyrics-section h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #12372A;
+}
+
+.lyrics-section p {
+    line-height: 1.6;
+    color: #0e0505;
+
+    
+}
+.lyrics-section h4 {
+    color: #B2B377;
+}
